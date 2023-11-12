@@ -1,6 +1,6 @@
 pipeline{
     // agent any
-    agent { label node }
+    agent { label jenkins_node }
 
     tools {
          maven 'maven'
