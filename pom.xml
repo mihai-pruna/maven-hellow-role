@@ -34,7 +34,6 @@
                         <phase>package</phase>
                         <goals>
                             <goal>shade</goal>
-                            <goal>exec-war-only</goal>
                         </goals>
                         <configuration>
                             <transformers>
